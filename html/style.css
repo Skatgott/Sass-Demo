@@ -1,0 +1,132 @@
+body {
+  font-family: Calibri;
+  font-size: 20px; }
+
+.heading {
+  text-align: center;
+  font-size: 36px; }
+
+.table-heading {
+  background-color: #D0D0D0; }
+
+.td-champion-l {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #FFFF00;
+  text-align: left; }
+
+.td-champion-r {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #FFFF00;
+  text-align: right; }
+
+.td-clgroup-l {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #FFFF80;
+  text-align: left; }
+
+.td-clgroup-r {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #FFFF80;
+  text-align: right; }
+
+.td-elgroup-l {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #80FF80;
+  text-align: left; }
+
+.td-elgroup-r {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #80FF80;
+  text-align: right; }
+
+.td-elquali-l {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #80FF80;
+  text-align: left; }
+
+.td-elquali-r {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #80FF80;
+  text-align: right; }
+
+.td-neutral-l {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #F0F0F0;
+  text-align: left; }
+
+.td-neutral-r {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #F0F0F0;
+  text-align: right; }
+
+.td-rele-playoff-l {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #FFA000;
+  text-align: left; }
+
+.td-rele-playoff-r {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #FFA000;
+  text-align: right; }
+
+.td-relegation-l {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #FF0000;
+  text-align: left; }
+
+.td-relegation-r {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-style: bold;
+  background-color: #FF0000;
+  text-align: right; }
+
+.box, .box-champion, .box-clgroup, .box-elgroup, .box-elquali, .box-rele-playoff, .box-relegation {
+  border-left: 1.2em solid;
+  padding-left: 0.5em; }
+
+.box-champion {
+  border-left-color: #FFFF00; }
+
+.box-clgroup {
+  border-left-color: #FFFF80; }
+
+.box-elgroup {
+  border-left-color: #80FF80; }
+
+.box-elquali {
+  border-left-color: #80FF80; }
+
+.box-rele-playoff {
+  border-left-color: #FFA000; }
+
+.box-relegation {
+  border-left-color: #FF0000; }
+
+/*# sourceMappingURL=style.css.map */

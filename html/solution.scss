@@ -1,0 +1,104 @@
+@import 'basicstyle';
+
+$champion-color: #FFFF00;
+$clgroup-color: #FFFF80;
+$elgroup-color: #80FF80;
+$elquali-color: #80FF80;
+$neutral-color: #F0F0F0;
+$rele-quali-color: #FFA000;
+$relegation-color: #FF0000;
+
+@mixin td-content($bgcolor, $alignment) {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	font-style: bold;
+	background-color: $bgcolor;
+	text-align: $alignment;
+}
+
+.td-champion-l {
+	@include td-content($champion-color, left);
+}	
+
+.td-champion-r {
+	@include td-content($champion-color, right);
+}	
+
+.td-clgroup-l {
+	@include td-content($clgroup-color, left);
+}	
+
+.td-clgroup-r {
+	@include td-content($clgroup-color, right);
+}	
+
+.td-elgroup-l {
+	@include td-content($elgroup-color, left);
+}	
+
+.td-elgroup-r {
+	@include td-content($elgroup-color, right);
+}
+
+.td-elquali-l {
+	@include td-content($elquali-color, left);
+}	
+
+.td-elquali-r {
+	@include td-content($elquali-color, right);
+}
+
+.td-neutral-l {
+	@include td-content($neutral-color, left);
+}	
+
+.td-neutral-r {
+	@include td-content($neutral-color, right);
+}
+
+.td-rele-playoff-l {
+	@include td-content($rele-quali-color, left);
+}	
+
+.td-rele-playoff-r {
+	@include td-content($rele-quali-color, right);
+}
+
+.td-relegation-l {
+	@include td-content($relegation-color, left);
+}	
+
+.td-relegation-r {
+	@include td-content($relegation-color, right);
+}
+
+.box {
+	border-left: 1.2em solid;
+	padding-left: 0.5em;
+}
+
+.box-champion {
+	@extend .box;
+	border-left-color: $champion-color;
+}
+
+.box-clgroup {
+	@extend .box;
+	border-left-color: $clgroup-color;
+}
+.box-elgroup {
+	@extend .box;
+	border-left-color: $elgroup-color;
+}
+.box-elquali {
+	@extend .box;
+	border-left-color: $elquali-color;
+}
+.box-rele-playoff {
+	@extend .box;
+	border-left-color: $rele-quali-color;
+}
+.box-relegation {
+	@extend .box;
+	border-left-color: $relegation-color;
+}
