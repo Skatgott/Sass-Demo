@@ -20,11 +20,15 @@ Write a mixin so each td-... -rule only has to include the mixin.
 
 The last task is to add the correct colors to the labels below the table.
 With the styles
-	border-left: 1.2em solid;
-	padding-left: 0.5em;
+```
+border-left: 1.2em solid;
+padding-left: 0.5em;
+```
 you can make the boxes left of the texts visible.
 Use the inheritance feature so that you only need to add the correct
-	border-left-color: ...
+```
+border-left-color: ...
+```
 
 ## Possible final results
 
